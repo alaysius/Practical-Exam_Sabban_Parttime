@@ -1,0 +1,1 @@
+select * from employees where salary_id=(select Max(salary_id) from employees;
